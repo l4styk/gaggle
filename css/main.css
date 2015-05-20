@@ -1,0 +1,182 @@
+
+/* Page Styles
+================================ */
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	color: #666666;
+	background-color: #ffffff;
+	height: 100%;
+}
+.page {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+/* Layout Colors
+================================ */
+
+#navigation       { background-color: #263692; }
+#main   { background-color: #ffffff; }
+#sidebar { background-color: #263692; }
+#footer       { background-color: #666666; }
+
+/* Header, Banner and Footer Layout
+================================ */
+#branding {
+	margin: 20px;
+}
+
+#navigation {
+	display: block;
+	text-align: center;
+}
+#navigation a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 10px;
+	height: 100%;
+	display: block;	
+}
+a:hover {
+		background-color:#F26722;
+}
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+#main-menu a {
+	text-decoration: none;
+	color: #ffffff;
+	margin-top: 10px;
+	padding-top: 10px;	
+}
+#footer {
+	text-align: center;
+	color:#ffffff;
+	padding: 10px;
+}
+/* Section Layout
+================================ */
+#main{
+	margin: 10px;
+}
+.banner-content h2{
+	color: #F26722;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+#content h2{
+	color: #F26722;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+#sidebar{
+	color: #ffffff;
+	padding: 10px;
+	}
+#sidebar h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 1%;
+	}
+#news a {
+		text-decoration: none;
+		color: #F26722;
+		display: block;
+		text-align: right;
+	}
+
+/* Images
+================================ */
+
+img {
+	width: 100%;
+}
+/* Media Queries
+================================ */
+
+@media (min-width: 800px) {
+
+		/* Page Styles
+	================================ */
+	a:hover {
+		background-color:#263692;
+	}
+
+	/* Header, Banner and Footer Layout
+	================================ */
+	#branding {
+		text-align: center;
+		margin: 3%;		
+	}
+	#navigation #menu-toggle {
+		display: none;
+	}
+	
+	li {
+		display: inline-block;
+		text-align: center;
+		font-size: 20px;
+		padding: 0% 3%;
+		padding-bottom: 10px;		
+	}
+	#footer {
+		padding:5px;
+	}
+
+
+		/* Section Layout
+	================================ */
+	#main{
+		margin-top: 0;
+		margin-left: 20%;
+		margin-right: 20%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	#banner {
+		position: relative;
+		box-shadow: 1px 5px 5px #eeeeee;
+	}
+	.banner-content{
+		color: #ffffff;
+		background-color: rgba(242, 103, 34, 0.8);
+		width:32%;
+		position: absolute;
+		left: 0;
+		top:0;
+		padding-left:10px; 
+		padding-right: 10px;
+		min-height: 100%;	
+	}
+	.banner-content h2{
+		color: #ffffff;
+	}	
+	#content{
+		width: 40%;
+		position: absolute;
+		padding-bottom: 10px;
+	}
+	#sidebar{
+		width: 30%;
+		float: right;
+		margin:10px;
+	}
+	
+	/* Images
+	================================ */
+
+	#branding img {
+		width: 20%;
+	}	
+
+}
+
+
+
+
+
